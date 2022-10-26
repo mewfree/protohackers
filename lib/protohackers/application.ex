@@ -7,11 +7,16 @@ defmodule Protohackers.Application do
 
   @impl true
   def start(_type, _args) do
-    port = String.to_integer(System.get_env("PORT") || "4040")
-
     children = [
       {Task.Supervisor, name: Protohackers.TaskSupervisor},
-      Supervisor.child_spec({Task, fn -> Protohackers.accept(port) end}, restart: :permanent)
+      Supervisor.child_spec({Task, fn -> Protohackers.SmokeTest.accept(4040) end},
+        restart: :permanent,
+        id: 0
+      ),
+      Supervisor.child_spec({Task, fn -> Protohackers.PrimeTime.accept(4041) end},
+        restart: :permanent,
+        id: 1
+      )
     ]
 
     opts = [strategy: :one_for_one, name: Protohackers.Supervisor]
