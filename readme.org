@@ -1,13 +1,13 @@
 #+title: Protohackers
 
-Attempt at solving Protohackers challenges in Elixir.
+Attempt at solving [[https://protohackers.com/][Protohackers]] challenges in Elixir.
 
 * Solutions
-| Problem                                                             | Solution                                                 | Status | Time                      |
-|---------------------------------------------------------------------+----------------------------------------------------------+--------+---------------------------|
-| [[https://protohackers.com/problem/0][0: Smoke Test]]               | [[file:./lib/protohackers/smoke_test.ex][smoke_test.ex]] | ✅     | Mon, 24 Oct 2022 21:17:55 |
-| [[https://protohackers.com/problem/1][1: Prime Time]]               | [[file:./lib/protohackers/prime_time.ex][prime_time.ex]] | ✅     | Tue, 25 Oct 2022 22:00:50 |
-| [[https://protohackers.com/problem/2][2: Means to an End]]          |                                                          | ❌     |                           |
-| [[https://protohackers.com/problem/3][3: Budget Chat]]              |                                                          | ❌     |                           |
-| [[https://protohackers.com/problem/4][4: Unusual Database Problem]] |                                                          | ❌     |                           |
-| [[https://protohackers.com/problem/5][5: Mob in the Middle]]        |                                                          | ❌     |                           |
+| Problem                                                             | Solution                                                           | Status | Time                      |
+|---------------------------------------------------------------------+--------------------------------------------------------------------+--------+---------------------------|
+| [[https://protohackers.com/problem/0][0: Smoke Test]]               | [[file:./lib/protohackers/smoke_test.ex][smoke_test.ex]]           | ✅     | Mon, 24 Oct 2022 21:17:55 |
+| [[https://protohackers.com/problem/1][1: Prime Time]]               | [[file:./lib/protohackers/prime_time.ex][prime_time.ex]]           | ✅     | Tue, 25 Oct 2022 22:00:50 |
+| [[https://protohackers.com/problem/2][2: Means to an End]]          | [[file:./lib/protohackers/means_to_an_end.ex][means_to_an_end.ex]] | ✅     | Thu, 27 Oct 2022 22:18:09 |
+| [[https://protohackers.com/problem/3][3: Budget Chat]]              |                                                                    | ❌     |                           |
+| [[https://protohackers.com/problem/4][4: Unusual Database Problem]] |                                                                    | ❌     |                           |
+| [[https://protohackers.com/problem/5][5: Mob in the Middle]]        |                                                                    | ❌     |                           |

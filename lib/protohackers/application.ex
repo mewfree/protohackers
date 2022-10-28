@@ -16,6 +16,10 @@ defmodule Protohackers.Application do
       Supervisor.child_spec({Task, fn -> Protohackers.PrimeTime.accept(4041) end},
         restart: :permanent,
         id: 1
+      ),
+      Supervisor.child_spec({Task, fn -> Protohackers.MeansToAnEnd.accept(4042) end},
+        restart: :permanent,
+        id: 2
       )
     ]
 
