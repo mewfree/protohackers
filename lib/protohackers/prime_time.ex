@@ -47,8 +47,16 @@ defmodule Protohackers.PrimeTime do
   end
 
   defp read_line(socket, rest) do
-    {:ok, data} = :gen_tcp.recv(socket, 0)
+    case :gen_tcp.recv(socket, 0) do
+      {:ok, data} ->
+        process_line(socket, data, rest)
 
+      {:error, :closed} ->
+        :gen_tcp.close(socket)
+    end
+  end
+
+  defp process_line(socket, data, rest) do
     if String.ends_with?(data, "\n") do
       json = Jason.decode(rest <> data)
 
