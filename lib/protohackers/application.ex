@@ -20,6 +20,10 @@ defmodule Protohackers.Application do
       Supervisor.child_spec({Task, fn -> Protohackers.MeansToAnEnd.accept(4042) end},
         restart: :permanent,
         id: 2
+      ),
+      Supervisor.child_spec({Task, fn -> Protohackers.BudgetChat.accept(4043) end},
+        restart: :permanent,
+        id: 3
       )
     ]
 
