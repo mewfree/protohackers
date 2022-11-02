@@ -24,6 +24,10 @@ defmodule Protohackers.Application do
       Supervisor.child_spec({Task, fn -> Protohackers.BudgetChat.accept(4043) end},
         restart: :permanent,
         id: 3
+      ),
+      Supervisor.child_spec({Task, fn -> Protohackers.UnusualDatabaseProgram.accept(4044) end},
+        restart: :permanent,
+        id: 4
       )
     ]
 
