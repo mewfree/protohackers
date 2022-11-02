@@ -28,6 +28,10 @@ defmodule Protohackers.Application do
       Supervisor.child_spec({Task, fn -> Protohackers.UnusualDatabaseProgram.accept(4044) end},
         restart: :permanent,
         id: 4
+      ),
+      Supervisor.child_spec({Task, fn -> Protohackers.MobInTheMiddle.accept(4045) end},
+        restart: :permanent,
+        id: 5
       )
     ]
 
