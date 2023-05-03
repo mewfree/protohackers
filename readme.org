@@ -13,3 +13,7 @@ Attempt at solving [[https://protohackers.com/][Protohackers]] challenges in Eli
 | [[https://protohackers.com/problem/5][5: Mob in the Middle]]        |                                                                                      | ❌     |                           |
 | [[https://protohackers.com/problem/6][6: Speed Daemon]]             |                                                                                      | ❌     |                           |
 | [[https://protohackers.com/problem/7][7: Line Reversal]]            |                                                                                      | ❌     |                           |
+| [[https://protohackers.com/problem/8][8: Insecure Sockets Layer]]   |                                                                                      | ❌     |                           |
+| [[https://protohackers.com/problem/9][9: Job Centre]]               |                                                                                      | ❌     |                           |
+| [[https://protohackers.com/problem/10][10: Voracious Code Storage]] |                                                                                      | ❌     |                           |
+| [[https://protohackers.com/problem/11][11: Pest Control]]           |                                                                                      | ❌     |                           |
