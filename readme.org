@@ -10,7 +10,7 @@ Attempt at solving [[https://protohackers.com/][Protohackers]] challenges in Eli
 | [[https://protohackers.com/problem/2][2: Means to an End]]          | [[file:./lib/protohackers/means_to_an_end.ex][means_to_an_end.ex]]                   | ✅     | Thu, 27 Oct 2022 22:18:09 |
 | [[https://protohackers.com/problem/3][3: Budget Chat]]              | [[file:./lib/protohackers/budget_chat.ex][budget_chat.ex]]                           | ✅     | Tue, 1 Nov 2022 08:10:41  |
 | [[https://protohackers.com/problem/4][4: Unusual Database Program]] | [[file:./lib/protohackers/unusual_database_program.ex][unusual_database_program.ex]] | ✅     | Sun, 27 Nov 2022 22:52:51 |
-| [[https://protohackers.com/problem/5][5: Mob in the Middle]]        |                                                                                      | ❌     |                           |
+| [[https://protohackers.com/problem/5][5: Mob in the Middle]]        | [[file:./lib/protohackers/mob_in_the_middle.ex][mob_in_the_middle.ex]]               | ✅     | Fri, 1 Sep 2023 11:33:46  |
 | [[https://protohackers.com/problem/6][6: Speed Daemon]]             |                                                                                      | ❌     |                           |
 | [[https://protohackers.com/problem/7][7: Line Reversal]]            |                                                                                      | ❌     |                           |
 | [[https://protohackers.com/problem/8][8: Insecure Sockets Layer]]   |                                                                                      | ❌     |                           |
